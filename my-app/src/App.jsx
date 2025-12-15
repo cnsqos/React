@@ -5,7 +5,7 @@ import './App.css'
 //default 내보내기를 하고, import 할 때 이름 마음대로 바꿩도 되기니긴
 import Welcom from './components/Hello'
 import Jxc from './components/Jsx'
-
+import Exam from './components/Exam';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Welcom /> {/* 컴포넌트의 장점 : 재사용성이 좋다. */}
       <Welcom /> {/*컴포넌트를 내가 원하는 만큼 재호출해서 쓸 수 있다.*/}
       <Jxc />
-      
+      <Exam />
     </div>
 
 
