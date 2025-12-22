@@ -1,0 +1,77 @@
+.notice-wrapper {
+  display: grid;
+  place-items: center;
+  min-height: 60vh;
+  font-family: system-ui, sans-serif;
+}
+
+.notice-box {
+  width: 560px;
+  border-radius: 14px;
+  padding: 20px;
+  background: #1f2937; /* 짙은 회색 */
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #374151;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.notice-message {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.notice-message.error {
+  color: #ef4444;
+}
+
+.notice-content {
+  margin-top: 12px;
+}
+
+.notice-title {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.notice-body {
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.notice-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.notice-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #374151;
+  color: #fff;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.notice-buttons button:hover {
+  background: #4b5563;
+}
