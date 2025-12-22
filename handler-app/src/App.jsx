@@ -5,6 +5,7 @@ import './App.css'
 import HandlerCounter from './components/HandlerCounter'
 import EarlyReturnExample from './components/EarlyReturnExample'
 import TernaryExample from './components/TernaryExample'
+import ListLengthExample from './components/ListlengthExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,12 @@ function App() {
       <Section>
         <TernaryExample/>
       </Section>
+
+      <Section>
+        <ListLengthExample/>
+      </Section>
+
+
     </>
   )
 }
