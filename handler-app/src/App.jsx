@@ -43,9 +43,9 @@ function Section({ children }) {
 
 const styles = {
   section: {
-    marginBottom: 32,
-    paddingBottom: 24,
-    borderBottom: "3px dashed #999999"
+    marginBottom : 32,
+    paddingBottom : 24,
+    borderBottom : "2px dashed #ddd",
   },
 };
 
