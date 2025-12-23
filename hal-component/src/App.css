@@ -1,0 +1,30 @@
+/* 화면 전체 */
+.app-container {
+  height: 100vh;                  /* 화면 전체 높이 */
+  display: flex;                   /* flex로 중앙 배치 */
+  justify-content: center;         /* 가로 중앙 */
+  align-items: center;             /* 세로 중앙 */
+  background-color: #282c34;       /* 배경색 */
+  margin: 0;                        /* 혹시 body 여백 제거 */
+}
+
+/* 카드 */
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #3a3f47;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #fff;                     /* 글씨 흰색 */
+}
+
+/* body 여백 제거 */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

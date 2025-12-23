@@ -8,7 +8,7 @@ export default function ListLengthExample(){
 
  //할일 추가
     function add(){
-
+      //input에 내용이 
     }
 
     //전체삭제
@@ -41,6 +41,7 @@ export default function ListLengthExample(){
         </div>
     )
 }
+
 
 function List({item}){
     return(
